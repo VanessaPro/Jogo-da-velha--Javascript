@@ -9,7 +9,7 @@ const Jogo_da_velha ={
          this.container_element = container;
    },
 
-   draw:function (){
+    draw:function(){
         
         let content = '';
         for (i in this.board){
