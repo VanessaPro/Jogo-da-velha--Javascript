@@ -36,7 +36,7 @@ const Jogo_da_velha = {
     if (this.board[position] === ''){
         this.board[position] = this.simbols.options[this.simbols.turn_index];
         this.draw();
-       
+            
         let winning_sequences_index = this.check_winning_sequences( this.simbols.options[this.simbols.turn_index] );
         if (winning_sequences_index >= 0){
             this.game_is_over();
