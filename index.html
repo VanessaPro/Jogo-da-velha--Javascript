@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0",user-scalable=no, shrink-to-fit=ye>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      ,user-scalable="no,"
+      shrink-to-fit="ye"
+    />
     <title>Jogo_da_velha</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
+  <body>
+    <main>
+      <h1>JOGO DA VELHA</h1>
+      <hr />
+      <div class="game">
+        <button data-i="1"></button>
+        <button data-i="2"></button>
+        <button data-i="3"></button>
+        <button data-i="4"></button>
+        <button data-i="5"></button>
+        <button data-i="6"></button>
+        <button data-i="7"></button>
+        <button data-i="8"></button>
+        <button data-i="9"></button>
+      </div>
+      <h2 class="startGamer"></h2>
+    </main>
 
-<body>
-    <div class='game'></div>
-
-    <button class="btn" onclick="Jogo_da_velha.restart()" title="Começar o jogo">COMEÇAR</button>
-
-    <script src="Jogo_da_velha.js"></script>
-    <script>
-        Jogo_da_velha.init(document.querySelector('.game'));
-        Jogo_da_velha.start();
-       
-    </script>
-    
-
-    
-</body>
-
+	<script type="text/javascript" src="jogo.js"></script>
+  </body>
 </html>
